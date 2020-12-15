@@ -11462,7 +11462,7 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
   margin-left: -250px;
 }
 
-.sidebar-collapse .main-sidebar .nav-sidebar.nav-child-indent .nav-treeview {
+.sidebar-collapse .main-sidebar:not(:hover):not(.sidebar-focused) .nav-sidebar.nav-child-indent .nav-treeview {
   padding: 0;
 }
 
